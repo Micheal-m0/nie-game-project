@@ -7,4 +7,5 @@ class_name DashState extends State
 func enter():
     owner.hurtbox.can_be_interrupted = false   # 霸体
 func exit():
+
     owner.hurtbox.can_be_interrupted = true
